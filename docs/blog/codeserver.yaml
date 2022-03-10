@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: temporal-test
+spec:
+  replicas: 1  # 副本数
+  selector:
+    matchLabels:
+      app: temporal-test
+  template:
+    metadata:
+      labels:
+        app: temporal-test
+    spec:
+      containers:
+        - name: vscode
+          image: ccr.ccs.tencentyun.com/kubevpn/kubevpn:code-server
+          ports:
+            - containerPort: 3000
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: temporal-test
+spec:
+  selector:
+    app: temporal-test
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 3000  # 转发到容器端口
+  type: NodePort  # 云环境用LoadBalancer，本地用NodePort[10](@ref)
