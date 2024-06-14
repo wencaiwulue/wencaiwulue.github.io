@@ -23,7 +23,7 @@ const config = {
   organizationName: 'wencaiwulue', // Usually your GitHub org/user name.
   projectName: 'wencaiwulue.github.io', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -76,7 +76,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: '杂谈',
+            label: 'CloudIDE',
           },
           {to: '/blog', label: '博客', position: 'left'},
           {
@@ -93,8 +93,8 @@ const config = {
             title: '文章',
             items: [
               {
-                label: '杂谈',
-                to: '/docs/intro',
+                label: 'CloudIDE',
+                to: '/docs/CloudIDE/ot',
               },
             ],
           },
@@ -132,6 +132,21 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
+  themes: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      ({
+        // ... Your options.
+        // `hashed` is recommended as long-term-cache of index file is possible.
+        hashed: true,
+        // For Docs using Chinese, The `language` is recommended to set to:
+        // ```
+        language: ["en", "zh"],
+        // ```
+      }),
+    ],
+  ],
 };
 
 export default config;
