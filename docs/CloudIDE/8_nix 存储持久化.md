@@ -55,45 +55,35 @@ dr-xr-xr-x   2 runner run 4.0K Jan  1  1970 bin
 ```
 
 手动设置 `NIX_STORE=/home/runner/nix`，会去构建而不是下载包。
-所以此方法暂时不可行。采用第二种方法。挂载 `/nix` 和 `~/.local/state` 目录
+所以此方法暂时不可行。采用第二种方法。挂载 `/nix` 目录
 
 ![nix_store_arch.svg](nix/nix_store_arch.svg)
 
 ## 详细设计
 
-使用网盘，挂载 `/nix` 和 `~/.local/state` 目录。挂载 state 目录的原因是，其中有些软连接指向 `/nix/store`
-，如果单纯挂载 `/nix` 目录的话，会提示找不到 `nix-shell` 命令
+使用网盘，挂载 `/nix` 目录。
 
 ```yaml
         volumeMounts:
           - mountPath: /nix
             name: nix
-          - mountPath: /home/runner/.local/state
-            name: nixstate
         volumes:
           - hostPath:
               path: /mnt/vepfs/nix/nix
               type: Directory
             name: nix
-          - hostPath:
-              path: /mnt/vepfs/nix/state
-              type: Directory
-            name: nixstate
 ```
 
 ### 说明
 
-额外需要 copy 的过程，当第一次使用新的网盘时，需要把基础镜像中的 `/nix` 和 `/home/runner/.local/state` 两个目录，copy
-到网盘的 `/mnt/vepfs/nix` 和 `/mnt/vepfs/nix/state` 目录。
+额外需要 copy 的过程，当第一次使用新的网盘时，需要把基础镜像中的 `/nix` 目录，copy 到网盘的 `/mnt/vepfs/nix/nix` 目录。
 
 ```shell
 root@iv-yczv0pq41s5i3z3mw60r:~# tree -L 2 /mnt/vepfs/nix
 /mnt/vepfs/nix
 |-- nix
-|   |-- store
-|   `-- var
-`-- state
-    `-- nix
+    |-- store
+    `-- var
 
 5 directories, 0 files
 root@iv-yczv0pq41s5i3z3mw60r:~#
