@@ -76,7 +76,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'CloudIDE',
+            label: 'CloudIDE 系列',
           },
           {to: '/blog', label: '博客', position: 'left'},
           {
@@ -93,7 +93,7 @@ const config = {
             title: '文章',
             items: [
               {
-                label: 'CloudIDE',
+                label: 'CloudIDE 系列',
                 to: '/docs/CloudIDE/ot',
               },
             ],

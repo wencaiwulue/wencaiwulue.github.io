@@ -5,7 +5,7 @@ authors: naison
 tags: [ naison, CloudIDE ]
 ---
 
-# 通用语言服务
+# 通用语言服务 LSP
 
 # 引言
 

@@ -1,6 +1,5 @@
 ---
-slug: kubevpn
-title: 使用 kubevpn 在本地开发 server 项目
+title: 使用 kubevpn dev 模式在本地开发云原生工程
 authors: naison
 tags: [ naison, kubevpn ]
 ---

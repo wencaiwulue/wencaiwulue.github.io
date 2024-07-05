@@ -1,8 +1,7 @@
 ---
-slug: namespace
 title: Linux namespace 简介
 authors: naison
-tags: [ naison, kubevpn ]
+tags: [ Linux ]
 ---
 
 # 前言
