@@ -26,7 +26,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        心急吃不了热豆腐。
+        但行好事，莫问前程。
       </>
     ),
   },
