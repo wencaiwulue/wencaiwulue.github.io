@@ -1,12 +1,12 @@
 ---
-title: 排查公有云 CloudIDE websocket 链接异常断开问题
+title: 排查公有云 Cloud IDE websocket 链接异常断开问题
 authors: naison
-tags: [ naison, CloudIDE ]
+tags: [ naison, Cloud IDE ]
 ---
 
 ## 背景
 
-之前做了一个 CloudIDE，可以实现多人同时编辑同一个文件。在私有云是好好地，但是上线到公有云后，出现了 WebSocket
+之前做了一个 Cloud IDE，可以实现多人同时编辑同一个文件。在私有云是好好地，但是上线到公有云后，出现了 WebSocket
 异常断开的问题。
 ![img.png](websocket/disconnect.png)
 

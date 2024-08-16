@@ -19,7 +19,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/CloudIDE/ot">
+            to="/docs/ide/ot">
             你好呀
           </Link>
         </div>

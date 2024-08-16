@@ -2,7 +2,7 @@
 sidebar_position: 4
 slug: shell
 authors: naison
-tags: [ naison, CloudIDE ]
+tags: [ naison, Cloud IDE ]
 ---
 
 # Shell 工具

@@ -2,7 +2,7 @@
 sidebar_position: 7
 slug: lsp
 authors: naison
-tags: [ naison, CloudIDE ]
+tags: [ naison, Cloud IDE ]
 ---
 
 # 通用语言服务 LSP

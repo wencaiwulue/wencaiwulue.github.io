@@ -2,7 +2,7 @@
 sidebar_position: 8
 slug: nix
 authors: naison
-tags: [ naison, CloudIDE ]
+tags: [ naison, Cloud IDE ]
 ---
 
 # nix 存储持久化

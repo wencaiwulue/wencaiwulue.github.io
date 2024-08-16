@@ -1,8 +1,8 @@
 {
-  "label": "CloudIDE",
+  "label": "Cloud IDE",
   "position": 2,
   "link": {
     "type": "generated-index",
-    "description": "CloudIDE tech"
+    "description": "Cloud IDE tech"
   }
 }
