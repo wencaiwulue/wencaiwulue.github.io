@@ -35,7 +35,7 @@ LocationTool：根据用户给出的问题查询具体位置或推荐具体地�
 
 ```shell
 ➜  ~ curl -X POST localhost:8000/chat/completions -H "Content-Type: application/json" -d '{
-    "model": "doubao",
+    "model": "xxxxxx",
     "stream": false,
     "messages": [
         {
@@ -83,7 +83,7 @@ LocationTool：根据用户给出的问题查询具体位置或推荐具体地�
       }
     }]
 }'
-{"model":"doubao","choices":[{"delta":{"role":"assistant","content":"\n当前提供了 1 个工具，分别是['LocationTool']，需求为查询南山图书馆的位置，需要调用 LocationTool 获取相关信息。","tool_calls":[{"type":"function","function":{"name":"LocationTool","arguments":"{\"latitude\": \"22.536444\", \"location_keyword\": \"南山图书馆\"}"},"index":0,"id":"call_nbkpltop1qzycolf8gw3n7zk"}]},"index":0,"finish_reason":"tool_calls","logprobs":null}],"usage":{"prompt_tokens":220,"completion_tokens":82,"total_tokens":302}}
+{"model":"xxxxxx","choices":[{"delta":{"role":"assistant","content":"\n当前提供了 1 个工具，分别是['LocationTool']，需求为查询南山图书馆的位置，需要调用 LocationTool 获取相关信息。","tool_calls":[{"type":"function","function":{"name":"LocationTool","arguments":"{\"latitude\": \"22.536444\", \"location_keyword\": \"南山图书馆\"}"},"index":0,"id":"call_nbkpltop1qzycolf8gw3n7zk"}]},"index":0,"finish_reason":"tool_calls","logprobs":null}],"usage":{"prompt_tokens":220,"completion_tokens":82,"total_tokens":302}}
 
 ➜  ~
 ```
@@ -130,7 +130,7 @@ LocationTool：根据用户给出的问题查询具体位置或推荐具体地�
 
 ```shell
 curl -X POST localhost:8000/chat/completions -H "Content-Type: application/json" -d '{
-    "model": "doubao",
+    "model": "xxxxxx",
     "stream": false,
     "messages": [
         {
@@ -187,7 +187,7 @@ curl -X POST localhost:8000/chat/completions -H "Content-Type: application/json"
       }
     }]
 }'
-{"model":"doubao","choices":[{"message":{"role":"assistant","content":"南山图书馆的位置是南山区南山大道 2093 号。","tool_calls":[]},"index":0,"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":291,"completion_tokens":28,"total_tokens":319}}
+{"model":"xxxxxx","choices":[{"message":{"role":"assistant","content":"南山图书馆的位置是南山区南山大道 2093 号。","tool_calls":[]},"index":0,"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":291,"completion_tokens":28,"total_tokens":319}}
 ```
 
 ### 最终的结果
@@ -200,7 +200,7 @@ curl -X POST localhost:8000/chat/completions -H "Content-Type: application/json"
 
 ```shell
 ➜  ~ curl -X POST localhost:8000/chat/completions -H "Content-Type: application/json" -d '{
-    "model": "doubao",
+    "model": "xxxxxx",
     "stream": false,
     "messages": [
         {
@@ -218,12 +218,12 @@ curl -X POST localhost:8000/chat/completions -H "Content-Type: application/json"
     "repetition_penalty": 1,
     "max_new_tokens": 2048
 }'
-{"model":"doubao","choices":[{"message":{"role":"assistant","content":"\n当前提供了 1 个工具，分别是['LocationTool']，需求是查询南山图书馆的位置，需要调用 LocationTool 获取相关信息。","tool_calls":[{"type":"function","function":{"name":"LocationTool","arguments":"{\"latitude\": 42.04, \"longitude\": 106.03, \"location_keyword\": \"南山图书馆\"}"},"index":0,"id":"call_uwy26bq6wvx7ud0g3anhrxhu"}]},"index":0,"finish_reason":"tool_calls","logprobs":null}],"usage":{"prompt_tokens":361,"completion_tokens":87,"total_tokens":448}}
+{"model":"xxxxxx","choices":[{"message":{"role":"assistant","content":"\n当前提供了 1 个工具，分别是['LocationTool']，需求是查询南山图书馆的位置，需要调用 LocationTool 获取相关信息。","tool_calls":[{"type":"function","function":{"name":"LocationTool","arguments":"{\"latitude\": 42.04, \"longitude\": 106.03, \"location_keyword\": \"南山图书馆\"}"},"index":0,"id":"call_uwy26bq6wvx7ud0g3anhrxhu"}]},"index":0,"finish_reason":"tool_calls","logprobs":null}],"usage":{"prompt_tokens":361,"completion_tokens":87,"total_tokens":448}}
 ```
 
 ```shell
 ➜  ~ curl -X POST localhost:8000/chat/completions -H "Content-Type: application/json" -d '{
-    "model": "doubao",
+    "model": "xxxxxx",
     "stream": false,
     "messages": [
         {
@@ -245,5 +245,5 @@ curl -X POST localhost:8000/chat/completions -H "Content-Type: application/json"
     "repetition_penalty": 1,
     "max_new_tokens": 2048
 }'
-{"model":"doubao","choices":[{"message":{"role":"assistant","content":"为您查询到南山图书馆的地址为：南山区南山大道 2093 号。\n\n如果您想了解更多关于南山图书馆的信息，或者有其他需求，请继续提问。","tool_calls":[]},"index":0,"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":384,"completion_tokens":53,"total_tokens":437}}
+{"model":"xxxxxx","choices":[{"message":{"role":"assistant","content":"为您查询到南山图书馆的地址为：南山区南山大道 2093 号。\n\n如果您想了解更多关于南山图书馆的信息，或者有其他需求，请继续提问。","tool_calls":[]},"index":0,"finish_reason":"stop","logprobs":null}],"usage":{"prompt_tokens":384,"completion_tokens":53,"total_tokens":437}}
 ```
