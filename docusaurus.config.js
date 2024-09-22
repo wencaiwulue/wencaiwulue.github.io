@@ -52,6 +52,7 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/wencaiwulue/wencaiwulue.github.io/tree/master',
+          blogSidebarCount: "ALL"
         },
         theme: {
           customCss: './src/css/custom.css',
