@@ -31,6 +31,13 @@ huggingface-cli download stabilityai/stable-diffusion-2-1 --local-dir ~/stable-d
 rsync -e "ssh -i ~/.ssh/common.pem" -aP ~/stable-diffusion root@10.0.1.45:/shared/llm-models
 ```
 
+#### 或者直接在 Linux 主机上配置 mirror 源
+
+```shell
+export HF_ENDPOINT=https://hf-mirror.com
+huggingface-cli download stabilityai/stable-diffusion-2-1 --local-dir ~/stable-diffusion
+```
+
 #### 安装 python 依赖
 
 ```shell
