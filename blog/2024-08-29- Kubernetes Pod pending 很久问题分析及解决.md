@@ -8,7 +8,7 @@ tags: [ Kubernetes ]
 
 ## 背景
 
-在 Cloud IDE 运行过程中，会启动一个 deployment 用做工作空间，然后在 pod ide-server。但是当性能压测的时候，出现了问题。
+在 IDE 运行过程中，会启动一个 deployment 用做工作空间，然后在 pod ide-server。但是当性能压测的时候，出现了问题。
 
 ## 问题
 

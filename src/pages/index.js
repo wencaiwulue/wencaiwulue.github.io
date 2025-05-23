@@ -23,7 +23,7 @@ function HomepageHeader() {
                     className="button button--secondary button--lg"
                     to="/docs/ide/ot"
                 >
-                    求
+                    技术
                 </Link>
                 <Link
                     style={{
@@ -37,7 +37,7 @@ function HomepageHeader() {
                     className="button button--secondary button--lg"
                     to="/blog"
                 >
-                    势
+                    人生
                 </Link>
             </div>
         </div>
@@ -46,6 +46,10 @@ function HomepageHeader() {
 
 export default function Home() {
     const {siteConfig} = useDocusaurusContext();
+    if (typeof window !== 'undefined') {
+        window.location.href = '/docs/ot';
+        return null;
+    }
     return (<Layout
         title={`Hello from ${siteConfig.title}`}
         description="Description will go into a meta tag in <head />">

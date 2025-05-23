@@ -3,7 +3,7 @@ import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
 const FeatureList = [
-  {
+/*  {
     title: '好学',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
@@ -29,7 +29,7 @@ const FeatureList = [
         但行好事，莫问前程。
       </>
     ),
-  },
+  },*/
 ];
 
 function Feature({Svg, title, description}) {
