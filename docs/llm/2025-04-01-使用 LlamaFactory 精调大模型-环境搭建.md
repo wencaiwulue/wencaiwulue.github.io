@@ -65,4 +65,4 @@ kubevpn ssh --ssh-username=root --ssh-addr=101.126.7.2 --ssh-password=xxx
 http://198.18.0.100:7860/
 ```
 
-![llamafactory.jpg.png](llamafactory.jpg.png)
+![llamafactory.jpg.png](img/llamafactory.jpg.png)

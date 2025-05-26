@@ -47,7 +47,7 @@ function HomepageHeader() {
 export default function Home() {
     const {siteConfig} = useDocusaurusContext();
     if (typeof window !== 'undefined') {
-        window.location.href = '/docs/ot';
+        window.location.href = 'quickstart';
         return null;
     }
     return (<Layout

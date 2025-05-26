@@ -10,7 +10,7 @@ tags: [ LLM, function call ]
 
 ## 主要流程
 
-![流程](function_call/function_call.svg)
+![流程](img/function_call.svg)
 
 由于大模型不支持流式输入，因此实际上对于 function call，都是通过单次的 http 请求来实现的。
 

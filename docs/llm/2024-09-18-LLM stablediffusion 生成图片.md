@@ -78,4 +78,4 @@ scp -i ~/.ssh/common.pem root@10.0.1.45:~/generated_image.png generated_image.pn
 
 #### 查看效果
 
-![generated_image.png](stablediffusion/generated_image.png)
+![generated_image.png](img/generated_image.png)

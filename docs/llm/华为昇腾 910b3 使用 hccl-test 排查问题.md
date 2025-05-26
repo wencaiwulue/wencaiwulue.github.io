@@ -2,4 +2,4 @@
 passwd toor
 service ssh start
 
-![img.png](img.png)
+![img.png](img/img.png)

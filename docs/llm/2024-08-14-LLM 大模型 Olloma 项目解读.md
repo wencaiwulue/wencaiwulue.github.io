@@ -56,16 +56,16 @@ time=2024-08-14T16:27:00.756+08:00 level=INFO source=server.go:393 msg="starting
 仔细看命令
 
 ```shell
-ollama_llama_server --model /Users/bytedance/.ollama/models/blobs/sha256-43f7a214e5329f672bb05404cfba1913cbb70fdaa1a17497224e1925046b0ed5 --ctx-size 8192 --batch-size 512 --embedding --log-disable --n-gpu-layers 29 --parallel 4 --port 61974
+ollama_llama_server --model /Users/bytedance/.img/models/blobs/sha256-43f7a214e5329f672bb05404cfba1913cbb70fdaa1a17497224e1925046b0ed5 --ctx-size 8192 --batch-size 512 --embedding --log-disable --n-gpu-layers 29 --parallel 4 --port 61974
 ```
 
 本质上使用的是 [llama.cpp](https://github.com/ggerganov/llama.cpp) 提供的功能。直接使用 llama.cpp 的功能也可以实现相同的效果。
 
 ```shell
-➜  bin ./llama-server --model /Users/bytedance/.ollama/models/blobs/sha256-43f7a214e5329f672bb05404cfba1913cbb70fdaa1a17497224e1925046b0ed5 --ctx-size 8192 --batch-size 512 --log-disable --n-gpu-layers 29 --parallel 4 --port 61974
+➜  bin ./llama-server --model /Users/bytedance/.img/models/blobs/sha256-43f7a214e5329f672bb05404cfba1913cbb70fdaa1a17497224e1925046b0ed5 --ctx-size 8192 --batch-size 512 --log-disable --n-gpu-layers 29 --parallel 4 --port 61974
 INFO [                    main] build info | tid="0x1fa794c00" timestamp=1723624128 build=3581 commit="06943a69"
 INFO [                    main] system info | tid="0x1fa794c00" timestamp=1723624128 n_threads=8 n_threads_batch=-1 total_threads=10 system_info="AVX = 0 | AVX_VNNI = 0 | AVX2 = 0 | AVX512 = 0 | AVX512_VBMI = 0 | AVX512_VNNI = 0 | AVX512_BF16 = 0 | FMA = 0 | NEON = 1 | SVE = 0 | ARM_FMA = 1 | F16C = 0 | FP16_VA = 1 | WASM_SIMD = 0 | BLAS = 1 | SSE3 = 0 | SSSE3 = 0 | VSX = 0 | MATMUL_INT8 = 0 | LLAMAFILE = 1 | "
-llama_model_loader: loaded meta data with 21 key-value pairs and 339 tensors from /Users/bytedance/.ollama/models/blobs/sha256-43f7a214e5329f672bb05404cfba1913cbb70fdaa1a17497224e1925046b0ed5 (version GGUF V3 (latest))
+llama_model_loader: loaded meta data with 21 key-value pairs and 339 tensors from /Users/bytedance/.img/models/blobs/sha256-43f7a214e5329f672bb05404cfba1913cbb70fdaa1a17497224e1925046b0ed5 (version GGUF V3 (latest))
 llama_model_loader: Dumping metadata keys/values. Note: KV overrides do not apply in this output.
 llama_model_loader: - kv   0:                       general.architecture str              = qwen2
 llama_model_loader: - kv   1:                               general.name str              = Qwen2-7B-Instruct
@@ -96,12 +96,12 @@ llama_model_loader: - type q6_K:    1 tensors
 
 打开 [本地服务](http://localhost:61974)
 
-![llama cpp.png](ollama/llama_cpp.png)
+![llama cpp.png](img/llama_cpp.png)
 
 可以看到，`llama-server` 已经内嵌了一个简单的 UI 页面，也可以切换到右上角的 `New UI`，有个更加美观的页面。在这里简单的页面上我们就可以和
 LLM 大模型进行交流了。
 
-![llama_cpp_new_ui.png](ollama/llama_cpp_new_ui.png)
+![llama_cpp_new_ui.png](img/llama_cpp_new_ui.png)
 
 但是 Ollama 启动的 Ollama-llama-server 这个 UI 被移除了。
 
@@ -184,14 +184,14 @@ UI: [open-webui](https://github.com/open-webui/open-webui)
 pip install open-webui && open-webui serve
 ```
 
-![open_ui.png](ollama/open_ui.png)
+![open_ui.png](img/open_ui.png)
 
 GUI: Hollama
-![hollama.png](ollama/hollama.png)
+![hollama.png](img/hollama.png)
 
 ## 架构
 
-![ollama_arch.svg](ollama/ollama_arch.svg)
+![ollama_arch.svg](img/ollama_arch.svg)
 
 ## 亮点
 

@@ -8,7 +8,7 @@ tags: [ naison, IDE ]
 
 之前做了一个 IDE，可以实现多人同时编辑同一个文件。在私有云是好好地，但是上线到公有云后，出现了 WebSocket
 异常断开的问题。
-![img.png](websocket/disconnect.png)
+![img.png](img/disconnect.png)
 
 ## 现象
 
@@ -48,7 +48,7 @@ root@iv-yd6qd3t0qo5i3z3c3v05:~# tcpdump -i eth0 -vvv -w tcpdump.pcap
 ```
 
 在流量经过的每个节点抓包。从而绘制出网络拓扑图。
-![cloudide-websocket-arch.svg](websocket/cloudide-websocket-arch.svg)
+![cloudide-websocket-arch.svg](img/cloudide-websocket-arch.svg)
 常用的 wireshark 过滤语句
 
 - ip.addr == 192.0.2.1 and tcp.port not in {80, 25}

@@ -45,6 +45,8 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/wencaiwulue/wencaiwulue.github.io/tree/master',
+          path: 'docs',         // 文档源文件目录
+          routeBasePath: '/',
         },
         blog: {
           showReadingTime: true,
@@ -75,13 +77,42 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'docs',
             position: 'left',
-            label: 'IDE 系列',
+            label: '技术',
           },
-          {to: '/blog', label: '博客', position: 'left'},
           {
-            href: 'https://github.com/wencaiwulue/wencaiwulue.github.io',
+            type: 'docSidebar',
+            sidebarId: 'llm',
+            position: 'left',
+            label: '大模型',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'k8s',
+            position: 'left',
+            label: 'K8s',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'ide',
+            position: 'left',
+            label: 'Cloud IDE',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'blog',
+            position: 'left',
+            label: '博客',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'note',
+            position: 'left',
+            label: '感悟',
+          },
+          {
+            href: 'https://github.com/wencaiwulue',
             label: 'GitHub',
             position: 'right',
           },
@@ -94,8 +125,8 @@ const config = {
             title: '文章',
             items: [
               {
-                label: 'IDE 系列',
-                to: '/docs/ot',
+                label: '技术',
+                to: 'quickstart',
               },
             ],
           },
@@ -103,8 +134,8 @@ const config = {
             title: '社区',
             items: [
               {
-                label: 'GitLab',
-                href: 'https://gitlab.com/kubevpn',
+                label: 'Gitee',
+                href: 'https://gitee.com/kubevpn',
               },
               {
                 label: 'CSDN',
@@ -115,10 +146,6 @@ const config = {
           {
             title: '更多',
             items: [
-              {
-                label: '博客',
-                to: '/blog',
-              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/wencaiwulue/kubevpn',

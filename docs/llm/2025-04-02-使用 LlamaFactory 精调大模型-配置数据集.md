@@ -2,7 +2,7 @@
 
 ## 使用预制数据集训练
 
-![img.png](img.png)
+![img.png](img/img_llama_factory_dataset_preview.png)
 
 可以点击预览查看数据集的内容。
 
@@ -48,4 +48,4 @@ https://github.com/hiyouga/LLaMA-Factory/blob/main/data/README_zh.md
 
 如果配置正确，则可以点击 `Preview dataset` 按钮来预览数据集，如果这个按钮是灰色的，则表示没有正确配置。
 
-![img_1.png](img_1.png)
+![img_1.png](img/img_llama_factory_dataset.png)

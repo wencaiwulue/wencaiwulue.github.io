@@ -294,7 +294,7 @@ scheduler-controller-manager-5479cd5fbf-8bhgk           1/1     Running   0     
 scheduler-controller-manager-5479cd5fbf-lgpqz           1/1     Running   0          104d
 ```
 
-![kube-scheduler-config.jpg](k8s/kube-scheduler-config.jpg)
+![kube-scheduler-config.jpg](kube-scheduler-config.jpg)
 
 ## 效果
 
