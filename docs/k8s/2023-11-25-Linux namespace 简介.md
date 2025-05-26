@@ -294,7 +294,7 @@ timedatectl set-time "2022-12-31 12:00:00"
 
 ```shell
 uname -r
-5.4.143-2-velinux1-amd64 // 还不支持
+5.4.143-2-velinux1-amd64 # 还不支持
 ```
 
 ## 总结

@@ -107,6 +107,12 @@ const config = {
           },
           {
             type: 'docSidebar',
+            sidebarId: 'book',
+            position: 'left',
+            label: '技术书籍',
+          },
+          {
+            type: 'docSidebar',
             sidebarId: 'note',
             position: 'left',
             label: '感悟',
