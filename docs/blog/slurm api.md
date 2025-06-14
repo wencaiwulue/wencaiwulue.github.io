@@ -1,7 +1,7 @@
 ## slurm 架构图
 
-![slurm arch](slurm arch.gif)
+![slurm arch](img/slurm_arch.gif)
 
 ## slurm api 调用图
 
-![slurm api](slurm api.png)
+![slurm api](img/slurm_api.png)
