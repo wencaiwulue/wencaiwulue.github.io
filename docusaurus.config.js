@@ -77,12 +77,6 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'docs',
-            position: 'left',
-            label: '技术',
-          },
-          {
-            type: 'docSidebar',
             sidebarId: 'llm',
             position: 'left',
             label: '大模型',
