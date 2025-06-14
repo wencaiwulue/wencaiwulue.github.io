@@ -1,4 +1,6 @@
+import React from 'react';
+import {Redirect} from 'react-router-dom';
+
 export default function Home() {
-    window.location.href = 'category/大模型';
-    return null;
+    return <Redirect to='/category/大模型'/>;
 }
