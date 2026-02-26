@@ -1,0 +1,49 @@
+<svg width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 - 暖米色 -->
+  <rect width="240" height="240" fill="#FFFBF5" rx="12"/>
+
+  <!-- 远山 - 暖灰色 -->
+  <path d="M0 180 Q30 140 60 160 Q90 130 120 150 Q150 120 180 140 Q210 110 240 140 L240 240 L0 240 Z" fill="#8B7355" opacity="0.4"/>
+  <path d="M0 200 Q40 170 80 190 Q120 160 160 180 Q200 150 240 170 L240 240 L0 240 Z" fill="#8B7355" opacity="0.6"/>
+
+  <!-- 竹竿1 -->
+  <rect x="50" y="40" width="14" height="180" fill="#F97316" rx="2"/>
+  <rect x="50" y="40" width="14" height="2" fill="#EA580C"/>
+  <rect x="50" y="80" width="14" height="2" fill="#EA580C"/>
+  <rect x="50" y="130" width="14" height="2" fill="#EA580C"/>
+  <rect x="50" y="180" width="14" height="2" fill="#EA580C"/>
+
+  <!-- 竹叶1 -->
+  <ellipse cx="57" cy="70" rx="18" ry="6" fill="#EA580C" transform="rotate(-30 57 70)"/>
+  <ellipse cx="57" cy="65" rx="15" ry="5" fill="#FB923C" transform="rotate(-35 57 65)"/>
+  <ellipse cx="50" cy="110" rx="16" ry="5" fill="#EA580C" transform="rotate(25 50 110)"/>
+  <ellipse cx="62" cy="105" rx="14" ry="4" fill="#FB923C" transform="rotate(30 62 105)"/>
+  <ellipse cx="57" cy="155" rx="15" ry="5" fill="#EA580C" transform="rotate(-25 57 155)"/>
+  <ellipse cx="50" cy="195" rx="12" ry="4" fill="#EA580C" transform="rotate(35 50 195)"/>
+
+  <!-- 竹竿2 -->
+  <rect x="120" y="60" width="12" height="160" fill="#F97316" rx="2"/>
+  <rect x="120" y="60" width="12" height="2" fill="#EA580C"/>
+  <rect x="120" y="110" width="12" height="2" fill="#EA580C"/>
+  <rect x="120" y="160" width="12" height="2" fill="#EA580C"/>
+
+  <!-- 竹叶2 -->
+  <ellipse cx="126" cy="90" rx="16" ry="5" fill="#EA580C" transform="rotate(25 126 90)"/>
+  <ellipse cx="126" cy="135" rx="14" ry="5" fill="#FB923C" transform="rotate(-20 126 135)"/>
+  <ellipse cx="120" cy="180" rx="15" ry="4" fill="#FB923C" transform="rotate(30 120 180)"/>
+
+  <!-- 竹竿3 -->
+  <rect x="180" y="30" width="10" height="190" fill="#F97316" rx="2"/>
+  <rect x="180" y="30" width="10" height="2" fill="#EA580C"/>
+  <rect x="180" y="90" width="10" height="2" fill="#EA580C"/>
+  <rect x="180" y="150" width="10" height="2" fill="#EA580C"/>
+
+  <!-- 竹叶3 -->
+  <ellipse cx="185" cy="60" rx="14" ry="5" fill="#EA580C" transform="rotate(-25 185 60)"/>
+  <ellipse cx="185" cy="120" rx="15" ry="5" fill="#FB923C" transform="rotate(30 185 120)"/>
+  <ellipse cx="180" cy="170" rx="12" ry="4" fill="#EA580C" transform="rotate(-35 180 170)"/>
+
+  <!-- 飞鸟 -->
+  <path d="M40 50 Q45 45 50 50 M45 50 L45 55" stroke="#8B7355" stroke-width="1.5" fill="none"/>
+  <path d="M200 70 Q205 65 210 70 M205 70 L205 75" stroke="#8B7355" stroke-width="1.5" fill="none"/>
+</svg>

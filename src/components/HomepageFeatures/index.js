@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: '好学',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/chinese_study.svg').default,
     description: (
       <>
         路漫漫其修远兮，吾将上下而求索。
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: '专注',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/chinese_bamboo.svg').default,
     description: (
       <>
         一心只读圣贤书。
@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: '耐心',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/chinese_lotus.svg').default,
     description: (
       <>
         但行好事，莫问前程。

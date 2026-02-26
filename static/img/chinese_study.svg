@@ -1,0 +1,35 @@
+<svg width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 - 暖米色 -->
+  <rect width="240" height="240" fill="#FFFBF5" rx="12"/>
+
+  <!-- 桌案 - 暖棕色 -->
+  <rect x="30" y="140" width="180" height="80" fill="#8B5A2B" rx="4"/>
+  <rect x="30" y="140" width="180" height="8" fill="#A0522D" rx="4"/>
+  <line x1="35" y1="148" x2="205" y2="148" stroke="#654321" stroke-width="1"/>
+
+  <!-- 毛笔 - 棕色笔杆 -->
+  <rect x="70" y="60" width="8" height="100" fill="#8B5A2B" rx="2"/>
+  <!-- 橙色笔头 -->
+  <path d="M70 60 Q74 30 78 60" fill="#F97316"/>
+  <ellipse cx="74" cy="30" rx="4" ry="8" fill="#F97316"/>
+  <ellipse cx="74" cy="30" rx="3" ry="6" fill="#1A1A1A"/>
+
+  <!-- 砚台 - 深灰色 -->
+  <rect x="140" y="110" width="60" height="35" fill="#3D3D3D" rx="8"/>
+  <ellipse cx="170" cy="127" rx="25" ry="12" fill="#2A2A2A"/>
+  <ellipse cx="170" cy="127" rx="20" ry="9" fill="#000000"/>
+
+  <!-- 书卷 -->
+  <path d="M100 170 Q120 165 140 170 L140 190 Q120 185 100 190 Z" fill="#D97706"/>
+  <path d="M100 170 Q120 165 140 170" stroke="#8B4513" stroke-width="1"/>
+  <rect x="105" y="172" width="30" height="12" fill="#FFFBF5" rx="1"/>
+  <line x1="120" y1="172" x2="120" y2="184" stroke="#F97316" stroke-width="0.5"/>
+
+  <!-- 印章 - 橙色 -->
+  <rect x="155" y="175" width="20" height="20" fill="#EA580C" rx="2"/>
+  <text x="165" y="189" fill="#FFFBF5" font-size="10" text-anchor="middle" font-weight="bold">印</text>
+
+  <!-- 墨迹飞溅效果 -->
+  <circle cx="90" cy="155" r="2" fill="#1A1A1A" opacity="0.3"/>
+  <circle cx="95" cy="160" r="1.5" fill="#1A1A1A" opacity="0.2"/>
+</svg>
