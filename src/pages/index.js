@@ -28,7 +28,7 @@ function HomepageHeader() {
                         alignItems: "center"
                     }}
                     className="button button--secondary button--lg"
-                    to="/llm/2025-05-26-使用%20nsys%20分析%20LLM%20性能问题"
+                    to="/llm/2025-05-26%20使用%20nsys%20分析%20LLM%20性能问题"
                 >
                     一个用心的人
                 </Link>
