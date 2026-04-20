@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# 使用 connect 模式本地调试 server
+# 使用 kubevpn connect 模式本地调试
 
 ## 环境准备
 

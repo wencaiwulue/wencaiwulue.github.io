@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# 使用 run 模式本地调试 server
+# 使用 kubevpn run 模式本地调试
 
 ## 环境准备
 

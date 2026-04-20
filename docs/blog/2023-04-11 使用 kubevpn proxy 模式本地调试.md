@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# 使用 proxy 模式本地调试 server
+# 使用 kubevpn proxy 模式本地调试
 
 ## 环境准备
 
