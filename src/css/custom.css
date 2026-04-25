@@ -108,12 +108,17 @@ body {
 
 /* Navbar - Clean & Minimal */
 .navbar {
-  background: var(--ifm-background-surface-color);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  background: var(--ifm-background-color);
   border-bottom: 1px solid var(--border-light);
   height: 60px;
+  z-index: 100;
 }
+
+/* 移动端侧边栏完全不透明 */
+.navbar-sidebar {
+  background: var(--ifm-background-color) !important;
+}
+
 
 .navbar__logo {
   border-radius: 6px;
