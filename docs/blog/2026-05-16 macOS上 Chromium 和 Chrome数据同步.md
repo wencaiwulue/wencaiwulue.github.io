@@ -24,7 +24,7 @@ xattr -cr /Applications/Chromium.app
 
 ### Enable Google APIs                                                 
 
-打开网站 https://console.cloud.google.com/ ，启动如下的 API
+打开网站 https://console.cloud.google.com/apis ，启动如下的 API
 
 ```text
 Cloud Search API
