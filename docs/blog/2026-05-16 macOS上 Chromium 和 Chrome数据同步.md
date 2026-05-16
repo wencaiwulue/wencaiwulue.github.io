@@ -8,7 +8,7 @@ Chrome 浏览器的书签和浏览历史，因此想到看看有没有什么办�
 
 ## 材料
 
-### 下载最新的 chromium 浏览器
+### 1. 下载最新的 chromium 浏览器
 
 https://download-chromium.appspot.com/
 
@@ -22,7 +22,7 @@ xattr -cr /Applications/Chromium.app
 
 ![img.png](chromium_no_google_sync.png)
 
-###                                        
+### Enable Google APIs                                                 
 
 打开网站 https://console.cloud.google.com/ ，启动如下的 API
 
@@ -51,8 +51,19 @@ plutil -insert LSEnvironment -json '{"GOOGLE_API_KEY":"你的_API_KEY", "GOOGLE_
 sudo codesign --force --deep --sign - /Applications/Chromium.app
 ```
 
-### 验证效果
+### 检查是否有同步入口
 
-打开浏览器的设置页面，可以看到登陆 Google 啦，大功告成。
+打开浏览器的设置页面，可以看到有登陆 Google 的入口，切记还没有完成，直接登陆 chromium 浏览器会遇到网页登陆成功， 但是
+chromium 提示没有登陆
 
 ![img_6.png](verify_chromium_google_sync.png)
+
+### 最重要的一步
+
+加入 Google 群组如下群组，亲测只需要加入第一个即可
+
+- [chromium-dev](https://groups.google.com/a/chromium.org/g/chromium-dev)
+- [google-browser-signin-testaccounts](https://groups.google.com/u/0/a/chromium.org/g/google-browser-signin-testaccounts)
+
+然后重新登陆 chromium 浏览器，大功告成～
+![img.png](after_join_chromium_group.png)
