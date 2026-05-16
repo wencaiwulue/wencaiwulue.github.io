@@ -22,7 +22,7 @@ xattr -cr /Applications/Chromium.app
 
 ![img.png](chromium_no_google_sync.png)
 
-### Enable Google APIs                                                 
+### 2. Enable Google APIs                                                 
 
 打开网站 https://console.cloud.google.com/apis ，启动如下的 API
 
@@ -36,13 +36,13 @@ Time Zone API
 
 ![img_5.png](enable_google_apis.png)
 
-### 开启 Google Oauth 认证
+### 3. 开启 Google Oauth 认证
 
 分别创建 `API key` 和 `OAuth client ID` 类型的认证方式，并且获取到 `client_id` `client_secret` `api_key`
 
 ![img.png](enable_google_oauth.png)
 
-### 写入永久配置
+### 4. 写入永久配置
 
 ```shell
 plutil -remove LSEnvironment /Applications/Chromium.app/Contents/Info.plist
@@ -51,14 +51,14 @@ plutil -insert LSEnvironment -json '{"GOOGLE_API_KEY":"你的_API_KEY", "GOOGLE_
 sudo codesign --force --deep --sign - /Applications/Chromium.app
 ```
 
-### 检查是否有同步入口
+### 5. 检查是否有同步入口
 
 打开浏览器的设置页面，可以看到有登陆 Google 的入口，切记还没有完成，直接登陆 chromium 浏览器会遇到网页登陆成功， 但是
 chromium 提示没有登陆
 
 ![img_6.png](verify_chromium_google_sync.png)
 
-### 最重要的一步
+### 6. 最重要的一步
 
 加入 Google 群组如下群组，亲测只需要加入第一个即可
 
