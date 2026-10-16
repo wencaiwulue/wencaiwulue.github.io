@@ -8,22 +8,22 @@
 
 ```shell
 docker run -d \
-  --name=ssh \
-- e PUID=1000 \
-- e PGID=0 \
-- e TZ=Etc/UTC \
-- e LANG=C.UTF-8 \
-- e SUDO_ACCESS=true `#optional` \
-- e PASSWORD_ACCESS=true `#optional` \
-- e USER_PASSWORD=naison `#optional` \
-- e USER_NAME=naison `#optional` \
-- e DOCKER_MODS=linuxserver/mods:openssh-server-ssh-tunnel \
-- e LOG_STDOUT= `#optional` \
-- p 2222:2222 \
-- v ~/:/app \
-- v /var/run/docker.sock:/var/run/docker.sock \
-  --restart always \
-  lscr.io/linuxserver/openssh-server:latest
+--name=ssh \
+-e PUID=1000 \
+-e PGID=0 \
+-e TZ=Etc/UTC \
+-e LANG=C.UTF-8 \
+-e SUDO_ACCESS=true `#optional` \
+-e PASSWORD_ACCESS=true `#optional` \
+-e USER_PASSWORD=naison `#optional` \
+-e USER_NAME=naison `#optional` \
+-e DOCKER_MODS=linuxserver/mods:openssh-server-ssh-tunnel \
+-e LOG_STDOUT= `#optional` \
+-p 2222:2222 \
+-v ~/:/app \
+-v /var/run/docker.sock:/var/run/docker.sock \
+--restart always \
+lscr.io/linuxserver/openssh-server:latest
 ```
 
 ## 需要替换 musl
