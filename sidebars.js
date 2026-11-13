@@ -94,7 +94,7 @@ function generateSidebarByMonth(dirName) {
   // 按年月倒序排列（最新的在前面）
   const sortedMonths = Object.keys(monthGroups).sort().reverse();
 
-  sortedMonths.forEach(monthKey => {
+  sortedMonths.forEach((monthKey, index) => {
     const items = monthGroups[monthKey];
     const [year, month] = monthKey.split('-');
 
@@ -112,7 +112,7 @@ function generateSidebarByMonth(dirName) {
     sidebar.push({
       type: 'category',
       label: label,
-      collapsed: false,
+      collapsed: index !== 0, // 仅最新一月展开，其余折叠
       items: items.map(item => item.docId)
     });
   });
