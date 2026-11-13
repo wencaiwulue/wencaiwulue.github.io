@@ -1,0 +1,872 @@
+[
+  {
+    "oldFile": "docs/blog/2023-04-11 使用 kubevpn connect 模式本地调试.md",
+    "newFile": "docs/blog/2023-04-11-使用-kubevpn-connect-模式本地调试.md",
+    "from": "/blog/2023-04-11 使用 kubevpn connect 模式本地调试",
+    "to": "/blog/2023-04-11-使用-kubevpn-connect-模式本地调试"
+  },
+  {
+    "oldFile": "docs/blog/2023-04-11 使用 kubevpn proxy 模式本地调试.md",
+    "newFile": "docs/blog/2023-04-11-使用-kubevpn-proxy-模式本地调试.md",
+    "from": "/blog/2023-04-11 使用 kubevpn proxy 模式本地调试",
+    "to": "/blog/2023-04-11-使用-kubevpn-proxy-模式本地调试"
+  },
+  {
+    "oldFile": "docs/blog/2023-04-11 使用 kubevpn run 模式本地调试.md",
+    "newFile": "docs/blog/2023-04-11-使用-kubevpn-run-模式本地调试.md",
+    "from": "/blog/2023-04-11 使用 kubevpn run 模式本地调试",
+    "to": "/blog/2023-04-11-使用-kubevpn-run-模式本地调试"
+  },
+  {
+    "oldFile": "docs/blog/2024-03-29 Telepresence 使用指南.md",
+    "newFile": "docs/blog/2024-03-29-Telepresence-使用指南.md",
+    "from": "/blog/2024-03-29 Telepresence 使用指南",
+    "to": "/blog/2024-03-29-Telepresence-使用指南"
+  },
+  {
+    "oldFile": "docs/blog/2024-07-05 Linux 上修改 Docker 镜像存储位置.md",
+    "newFile": "docs/blog/2024-07-05-Linux-上修改-Docker-镜像存储位置.md",
+    "from": "/blog/2024-07-05 Linux 上修改 Docker 镜像存储位置",
+    "to": "/blog/2024-07-05-Linux-上修改-Docker-镜像存储位置"
+  },
+  {
+    "oldFile": "docs/blog/2024-08-13 gRPC gateway 使用教程.md",
+    "newFile": "docs/blog/2024-08-13-gRPC-gateway-使用教程.md",
+    "from": "/blog/2024-08-13 gRPC gateway 使用教程",
+    "to": "/blog/2024-08-13-gRPC-gateway-使用教程"
+  },
+  {
+    "oldFile": "docs/blog/2024-08-18 JupyterLab 代理总结.md",
+    "newFile": "docs/blog/2024-08-18-JupyterLab-代理总结.md",
+    "from": "/blog/2024-08-18 JupyterLab 代理总结",
+    "to": "/blog/2024-08-18-JupyterLab-代理总结"
+  },
+  {
+    "oldFile": "docs/blog/2024-09-06 Python 源码为了安全而编译为C代码.md",
+    "newFile": "docs/blog/2024-09-06-Python-源码为了安全而编译为C代码.md",
+    "from": "/blog/2024-09-06 Python 源码为了安全而编译为C代码",
+    "to": "/blog/2024-09-06-Python-源码为了安全而编译为C代码"
+  },
+  {
+    "oldFile": "docs/blog/2025-04-01 使用 JetBrains gateway 远程开发.md",
+    "newFile": "docs/blog/2025-04-01-使用-JetBrains-gateway-远程开发.md",
+    "from": "/blog/2025-04-01 使用 JetBrains gateway 远程开发",
+    "to": "/blog/2025-04-01-使用-JetBrains-gateway-远程开发"
+  },
+  {
+    "oldFile": "docs/blog/2025-05-15 Temporal 适配 OceanBase 过程.md",
+    "newFile": "docs/blog/2025-05-15-Temporal-适配-OceanBase-过程.md",
+    "from": "/blog/2025-05-15 Temporal 适配 OceanBase 过程",
+    "to": "/blog/2025-05-15-Temporal-适配-OceanBase-过程"
+  },
+  {
+    "oldFile": "docs/blog/2025-05-26 Containerd 进入 nsenter.md",
+    "newFile": "docs/blog/2025-05-26-Containerd-进入-nsenter.md",
+    "from": "/blog/2025-05-26 Containerd 进入 nsenter",
+    "to": "/blog/2025-05-26-Containerd-进入-nsenter"
+  },
+  {
+    "oldFile": "docs/blog/2025-05-26 Gorm 使用技巧.md",
+    "newFile": "docs/blog/2025-05-26-Gorm-使用技巧.md",
+    "from": "/blog/2025-05-26 Gorm 使用技巧",
+    "to": "/blog/2025-05-26-Gorm-使用技巧"
+  },
+  {
+    "oldFile": "docs/blog/2025-05-26 K6s performance test.md",
+    "newFile": "docs/blog/2025-05-26-K6s-performance-test.md",
+    "from": "/blog/2025-05-26 K6s performance test",
+    "to": "/blog/2025-05-26-K6s-performance-test"
+  },
+  {
+    "oldFile": "docs/blog/2025-05-26 KubeVPN TODO.md",
+    "newFile": "docs/blog/2025-05-26-KubeVPN-TODO.md",
+    "from": "/blog/2025-05-26 KubeVPN TODO",
+    "to": "/blog/2025-05-26-KubeVPN-TODO"
+  },
+  {
+    "oldFile": "docs/blog/2025-05-26 KubeVPN工具使用实践.md",
+    "newFile": "docs/blog/2025-05-26-KubeVPN工具使用实践.md",
+    "from": "/blog/2025-05-26 KubeVPN工具使用实践",
+    "to": "/blog/2025-05-26-KubeVPN工具使用实践"
+  },
+  {
+    "oldFile": "docs/blog/2025-05-26 Linux namespace 介绍.md",
+    "newFile": "docs/blog/2025-05-26-Linux-namespace-介绍.md",
+    "from": "/blog/2025-05-26 Linux namespace 介绍",
+    "to": "/blog/2025-05-26-Linux-namespace-介绍"
+  },
+  {
+    "oldFile": "docs/blog/2025-05-26 MongoDB explain 用法.md",
+    "newFile": "docs/blog/2025-05-26-MongoDB-explain-用法.md",
+    "from": "/blog/2025-05-26 MongoDB explain 用法",
+    "to": "/blog/2025-05-26-MongoDB-explain-用法"
+  },
+  {
+    "oldFile": "docs/blog/2025-05-26 Nocalhost portforward 断线重连的实现.md",
+    "newFile": "docs/blog/2025-05-26-Nocalhost-portforward-断线重连的实现.md",
+    "from": "/blog/2025-05-26 Nocalhost portforward 断线重连的实现",
+    "to": "/blog/2025-05-26-Nocalhost-portforward-断线重连的实现"
+  },
+  {
+    "oldFile": "docs/blog/2025-05-26 PyCharm 使用报错.md",
+    "newFile": "docs/blog/2025-05-26-PyCharm-使用报错.md",
+    "from": "/blog/2025-05-26 PyCharm 使用报错",
+    "to": "/blog/2025-05-26-PyCharm-使用报错"
+  },
+  {
+    "oldFile": "docs/blog/2025-05-26 Redis 删除用法.md",
+    "newFile": "docs/blog/2025-05-26-Redis-删除用法.md",
+    "from": "/blog/2025-05-26 Redis 删除用法",
+    "to": "/blog/2025-05-26-Redis-删除用法"
+  },
+  {
+    "oldFile": "docs/blog/2025-05-26 Slurm API.md",
+    "newFile": "docs/blog/2025-05-26-Slurm-API.md",
+    "from": "/blog/2025-05-26 Slurm API",
+    "to": "/blog/2025-05-26-Slurm-API"
+  },
+  {
+    "oldFile": "docs/blog/2025-05-26 TCPdump 用法.md",
+    "newFile": "docs/blog/2025-05-26-TCPdump-用法.md",
+    "from": "/blog/2025-05-26 TCPdump 用法",
+    "to": "/blog/2025-05-26-TCPdump-用法"
+  },
+  {
+    "oldFile": "docs/blog/2025-05-26 Telepresence kt connect 各种工具比较.md",
+    "newFile": "docs/blog/2025-05-26-Telepresence-kt-connect-各种工具比较.md",
+    "from": "/blog/2025-05-26 Telepresence kt connect 各种工具比较",
+    "to": "/blog/2025-05-26-Telepresence-kt-connect-各种工具比较"
+  },
+  {
+    "oldFile": "docs/blog/2025-05-26 VCluster 使用.md",
+    "newFile": "docs/blog/2025-05-26-VCluster-使用.md",
+    "from": "/blog/2025-05-26 VCluster 使用",
+    "to": "/blog/2025-05-26-VCluster-使用"
+  },
+  {
+    "oldFile": "docs/blog/2025-05-26 iperf3 压测 KubeVPN.md",
+    "newFile": "docs/blog/2025-05-26-iperf3-压测-KubeVPN.md",
+    "from": "/blog/2025-05-26 iperf3 压测 KubeVPN",
+    "to": "/blog/2025-05-26-iperf3-压测-KubeVPN"
+  },
+  {
+    "oldFile": "docs/blog/2025-05-26 iptables 使用总结.md",
+    "newFile": "docs/blog/2025-05-26-iptables-使用总结.md",
+    "from": "/blog/2025-05-26 iptables 使用总结",
+    "to": "/blog/2025-05-26-iptables-使用总结"
+  },
+  {
+    "oldFile": "docs/blog/2025-05-26 iptables2.md",
+    "newFile": "docs/blog/2025-05-26-iptables2.md",
+    "from": "/blog/2025-05-26 iptables2",
+    "to": "/blog/2025-05-26-iptables2"
+  },
+  {
+    "oldFile": "docs/blog/2025-05-26 macOS m1 构建 cgo.md",
+    "newFile": "docs/blog/2025-05-26-macOS-m1-构建-cgo.md",
+    "from": "/blog/2025-05-26 macOS m1 构建 cgo",
+    "to": "/blog/2025-05-26-macOS-m1-构建-cgo"
+  },
+  {
+    "oldFile": "docs/blog/2025-05-26 pprof.md",
+    "newFile": "docs/blog/2025-05-26-pprof.md",
+    "from": "/blog/2025-05-26 pprof",
+    "to": "/blog/2025-05-26-pprof"
+  },
+  {
+    "oldFile": "docs/blog/2025-05-26 pprof排查 cpu 用量.md",
+    "newFile": "docs/blog/2025-05-26-pprof排查-cpu-用量.md",
+    "from": "/blog/2025-05-26 pprof排查 cpu 用量",
+    "to": "/blog/2025-05-26-pprof排查-cpu-用量"
+  },
+  {
+    "oldFile": "docs/blog/2025-05-26 rancher.md",
+    "newFile": "docs/blog/2025-05-26-rancher.md",
+    "from": "/blog/2025-05-26 rancher",
+    "to": "/blog/2025-05-26-rancher"
+  },
+  {
+    "oldFile": "docs/blog/2025-05-26 代码混淆.md",
+    "newFile": "docs/blog/2025-05-26-代码混淆.md",
+    "from": "/blog/2025-05-26 代码混淆",
+    "to": "/blog/2025-05-26-代码混淆"
+  },
+  {
+    "oldFile": "docs/blog/2025-05-26 代码行数统计.md",
+    "newFile": "docs/blog/2025-05-26-代码行数统计.md",
+    "from": "/blog/2025-05-26 代码行数统计",
+    "to": "/blog/2025-05-26-代码行数统计"
+  },
+  {
+    "oldFile": "docs/blog/2025-05-26 使用 KubeVPN 上谷歌.md",
+    "newFile": "docs/blog/2025-05-26-使用-KubeVPN-上谷歌.md",
+    "from": "/blog/2025-05-26 使用 KubeVPN 上谷歌",
+    "to": "/blog/2025-05-26-使用-KubeVPN-上谷歌"
+  },
+  {
+    "oldFile": "docs/blog/2025-05-26 使用 nginx 对 Docker registry 进行 Mesh.md",
+    "newFile": "docs/blog/2025-05-26-使用-nginx-对-Docker-registry-进行-Mesh.md",
+    "from": "/blog/2025-05-26 使用 nginx 对 Docker registry 进行 Mesh",
+    "to": "/blog/2025-05-26-使用-nginx-对-Docker-registry-进行-Mesh"
+  },
+  {
+    "oldFile": "docs/blog/2025-05-26 宣传 KubeVPN.md",
+    "newFile": "docs/blog/2025-05-26-宣传-KubeVPN.md",
+    "from": "/blog/2025-05-26 宣传 KubeVPN",
+    "to": "/blog/2025-05-26-宣传-KubeVPN"
+  },
+  {
+    "oldFile": "docs/blog/2025-05-26 有趣的排序 monogdb sort.md",
+    "newFile": "docs/blog/2025-05-26-有趣的排序-monogdb-sort.md",
+    "from": "/blog/2025-05-26 有趣的排序 monogdb sort",
+    "to": "/blog/2025-05-26-有趣的排序-monogdb-sort"
+  },
+  {
+    "oldFile": "docs/blog/2025-05-26 格式化 string 小技巧.md",
+    "newFile": "docs/blog/2025-05-26-格式化-string-小技巧.md",
+    "from": "/blog/2025-05-26 格式化 string 小技巧",
+    "to": "/blog/2025-05-26-格式化-string-小技巧"
+  },
+  {
+    "oldFile": "docs/blog/2025-05-26 私有云.md",
+    "newFile": "docs/blog/2025-05-26-私有云.md",
+    "from": "/blog/2025-05-26 私有云",
+    "to": "/blog/2025-05-26-私有云"
+  },
+  {
+    "oldFile": "docs/blog/2025-08-07 Temporal 调优经验.md",
+    "newFile": "docs/blog/2025-08-07-Temporal-调优经验.md",
+    "from": "/blog/2025-08-07 Temporal 调优经验",
+    "to": "/blog/2025-08-07-Temporal-调优经验"
+  },
+  {
+    "oldFile": "docs/blog/2025-09-23 使用 py spy 优化 Python worker 性能.md",
+    "newFile": "docs/blog/2025-09-23-使用-py-spy-优化-Python-worker-性能.md",
+    "from": "/blog/2025-09-23 使用 py spy 优化 Python worker 性能",
+    "to": "/blog/2025-09-23-使用-py-spy-优化-Python-worker-性能"
+  },
+  {
+    "oldFile": "docs/blog/2025-10-09 OAA.md",
+    "newFile": "docs/blog/2025-10-09-OAA.md",
+    "from": "/blog/2025-10-09 OAA",
+    "to": "/blog/2025-10-09-OAA"
+  },
+  {
+    "oldFile": "docs/blog/2025-10-09 对自动化办公的思考.md",
+    "newFile": "docs/blog/2025-10-09-对自动化办公的思考.md",
+    "from": "/blog/2025-10-09 对自动化办公的思考",
+    "to": "/blog/2025-10-09-对自动化办公的思考"
+  },
+  {
+    "oldFile": "docs/blog/2025-12-09 记录一次失败的 Redis 链接数打满问题.md",
+    "newFile": "docs/blog/2025-12-09-记录一次失败的-Redis-链接数打满问题.md",
+    "from": "/blog/2025-12-09 记录一次失败的 Redis 链接数打满问题",
+    "to": "/blog/2025-12-09-记录一次失败的-Redis-链接数打满问题"
+  },
+  {
+    "oldFile": "docs/blog/2026-01-15 大模型评测.md",
+    "newFile": "docs/blog/2026-01-15-大模型评测.md",
+    "from": "/blog/2026-01-15 大模型评测",
+    "to": "/blog/2026-01-15-大模型评测"
+  },
+  {
+    "oldFile": "docs/blog/2026-01-19 豆包app博客 agent 应用经验.md",
+    "newFile": "docs/blog/2026-01-19-豆包app博客-agent-应用经验.md",
+    "from": "/blog/2026-01-19 豆包app博客 agent 应用经验",
+    "to": "/blog/2026-01-19-豆包app博客-agent-应用经验"
+  },
+  {
+    "oldFile": "docs/blog/2026-01-20 GraphRAG 学习.md",
+    "newFile": "docs/blog/2026-01-20-GraphRAG-学习.md",
+    "from": "/blog/2026-01-20 GraphRAG 学习",
+    "to": "/blog/2026-01-20-GraphRAG-学习"
+  },
+  {
+    "oldFile": "docs/blog/2026-01-30 Agent skills 学习.md",
+    "newFile": "docs/blog/2026-01-30-Agent-skills-学习.md",
+    "from": "/blog/2026-01-30 Agent skills 学习",
+    "to": "/blog/2026-01-30-Agent-skills-学习"
+  },
+  {
+    "oldFile": "docs/blog/2026-02-03 Claude code 使用豆包模型.md",
+    "newFile": "docs/blog/2026-02-03-Claude-code-使用豆包模型.md",
+    "from": "/blog/2026-02-03 Claude code 使用豆包模型",
+    "to": "/blog/2026-02-03-Claude-code-使用豆包模型"
+  },
+  {
+    "oldFile": "docs/blog/2026-04-20 hermes-agent-run-agent-analysis.md",
+    "newFile": "docs/blog/2026-04-20-hermes-agent-run-agent-analysis.md",
+    "from": "/blog/2026-04-20 hermes-agent-run-agent-analysis",
+    "to": "/blog/2026-04-20-hermes-agent-run-agent-analysis"
+  },
+  {
+    "oldFile": "docs/blog/2026-05-16 macOS上 Chromium 和 Chrome数据同步.md",
+    "newFile": "docs/blog/2026-05-16-macOS上-Chromium-和-Chrome数据同步.md",
+    "from": "/blog/2026-05-16 macOS上 Chromium 和 Chrome数据同步",
+    "to": "/blog/2026-05-16-macOS上-Chromium-和-Chrome数据同步"
+  },
+  {
+    "oldFile": "docs/book/2025-05-26 article.md",
+    "newFile": "docs/book/2025-05-26-article.md",
+    "from": "/book/2025-05-26 article",
+    "to": "/book/2025-05-26-article"
+  },
+  {
+    "oldFile": "docs/book/2025-05-26 book.md",
+    "newFile": "docs/book/2025-05-26-book.md",
+    "from": "/book/2025-05-26 book",
+    "to": "/book/2025-05-26-book"
+  },
+  {
+    "oldFile": "docs/ide/2024-05-01 all in one.md",
+    "newFile": "docs/ide/2024-05-01-all-in-one.md",
+    "from": "/ide/2024-05-01 all in one",
+    "to": "/ide/2024-05-01-all-in-one"
+  },
+  {
+    "oldFile": "docs/ide/2024-05-01 inotify 缺陷以及解决方案.md",
+    "newFile": "docs/ide/2024-05-01-inotify-缺陷以及解决方案.md",
+    "from": "/ide/2024-05-01 inotify 缺陷以及解决方案",
+    "to": "/ide/2024-05-01-inotify-缺陷以及解决方案"
+  },
+  {
+    "oldFile": "docs/ide/2024-05-01 在线人员.md",
+    "newFile": "docs/ide/2024-05-01-在线人员.md",
+    "from": "/ide/2024-05-01 在线人员",
+    "to": "/ide/2024-05-01-在线人员"
+  },
+  {
+    "oldFile": "docs/ide/2024-05-01 心跳.md",
+    "newFile": "docs/ide/2024-05-01-心跳.md",
+    "from": "/ide/2024-05-01 心跳",
+    "to": "/ide/2024-05-01-心跳"
+  },
+  {
+    "oldFile": "docs/ide/2024-05-01 文件-内容.md",
+    "newFile": "docs/ide/2024-05-01-文件-内容.md",
+    "from": "/ide/2024-05-01 文件-内容",
+    "to": "/ide/2024-05-01-文件-内容"
+  },
+  {
+    "oldFile": "docs/ide/2024-05-01 文件-删除.md",
+    "newFile": "docs/ide/2024-05-01-文件-删除.md",
+    "from": "/ide/2024-05-01 文件-删除",
+    "to": "/ide/2024-05-01-文件-删除"
+  },
+  {
+    "oldFile": "docs/ide/2024-05-01 文件-搜索.md",
+    "newFile": "docs/ide/2024-05-01-文件-搜索.md",
+    "from": "/ide/2024-05-01 文件-搜索",
+    "to": "/ide/2024-05-01-文件-搜索"
+  },
+  {
+    "oldFile": "docs/ide/2024-05-01 文件-新增.md",
+    "newFile": "docs/ide/2024-05-01-文件-新增.md",
+    "from": "/ide/2024-05-01 文件-新增",
+    "to": "/ide/2024-05-01-文件-新增"
+  },
+  {
+    "oldFile": "docs/ide/2024-05-01 文件-移动.md",
+    "newFile": "docs/ide/2024-05-01-文件-移动.md",
+    "from": "/ide/2024-05-01 文件-移动",
+    "to": "/ide/2024-05-01-文件-移动"
+  },
+  {
+    "oldFile": "docs/ide/2024-05-01 文件-编辑-保存.md",
+    "newFile": "docs/ide/2024-05-01-文件-编辑-保存.md",
+    "from": "/ide/2024-05-01 文件-编辑-保存",
+    "to": "/ide/2024-05-01-文件-编辑-保存"
+  },
+  {
+    "oldFile": "docs/ide/2024-05-01 文件-编辑-删除.md",
+    "newFile": "docs/ide/2024-05-01-文件-编辑-删除.md",
+    "from": "/ide/2024-05-01 文件-编辑-删除",
+    "to": "/ide/2024-05-01-文件-编辑-删除"
+  },
+  {
+    "oldFile": "docs/ide/2024-05-01 文件-编辑-插入.md",
+    "newFile": "docs/ide/2024-05-01-文件-编辑-插入.md",
+    "from": "/ide/2024-05-01 文件-编辑-插入",
+    "to": "/ide/2024-05-01-文件-编辑-插入"
+  },
+  {
+    "oldFile": "docs/ide/2024-05-01 文件-获取单个详情.md",
+    "newFile": "docs/ide/2024-05-01-文件-获取单个详情.md",
+    "from": "/ide/2024-05-01 文件-获取单个详情",
+    "to": "/ide/2024-05-01-文件-获取单个详情"
+  },
+  {
+    "oldFile": "docs/ide/2024-05-01 文件-订阅-单个&打开.md",
+    "newFile": "docs/ide/2024-05-01-文件-订阅-单个-打开.md",
+    "from": "/ide/2024-05-01 文件-订阅-单个&打开",
+    "to": "/ide/2024-05-01-文件-订阅-单个-打开"
+  },
+  {
+    "oldFile": "docs/ide/2024-05-01 文件-订阅-取消单个.md",
+    "newFile": "docs/ide/2024-05-01-文件-订阅-取消单个.md",
+    "from": "/ide/2024-05-01 文件-订阅-取消单个",
+    "to": "/ide/2024-05-01-文件-订阅-取消单个"
+  },
+  {
+    "oldFile": "docs/ide/2024-05-01 文件-重命名.md",
+    "newFile": "docs/ide/2024-05-01-文件-重命名.md",
+    "from": "/ide/2024-05-01 文件-重命名",
+    "to": "/ide/2024-05-01-文件-重命名"
+  },
+  {
+    "oldFile": "docs/ide/2024-05-01 文件夹-删除.md",
+    "newFile": "docs/ide/2024-05-01-文件夹-删除.md",
+    "from": "/ide/2024-05-01 文件夹-删除",
+    "to": "/ide/2024-05-01-文件夹-删除"
+  },
+  {
+    "oldFile": "docs/ide/2024-05-01 文件夹-新建.md",
+    "newFile": "docs/ide/2024-05-01-文件夹-新建.md",
+    "from": "/ide/2024-05-01 文件夹-新建",
+    "to": "/ide/2024-05-01-文件夹-新建"
+  },
+  {
+    "oldFile": "docs/ide/2024-05-01 文件夹-移动.md",
+    "newFile": "docs/ide/2024-05-01-文件夹-移动.md",
+    "from": "/ide/2024-05-01 文件夹-移动",
+    "to": "/ide/2024-05-01-文件夹-移动"
+  },
+  {
+    "oldFile": "docs/ide/2024-05-01 文件夹-获取目录.md",
+    "newFile": "docs/ide/2024-05-01-文件夹-获取目录.md",
+    "from": "/ide/2024-05-01 文件夹-获取目录",
+    "to": "/ide/2024-05-01-文件夹-获取目录"
+  },
+  {
+    "oldFile": "docs/ide/2024-05-01 文件夹-订阅-取消.md",
+    "newFile": "docs/ide/2024-05-01-文件夹-订阅-取消.md",
+    "from": "/ide/2024-05-01 文件夹-订阅-取消",
+    "to": "/ide/2024-05-01-文件夹-订阅-取消"
+  },
+  {
+    "oldFile": "docs/ide/2024-05-01 文件夹-订阅.md",
+    "newFile": "docs/ide/2024-05-01-文件夹-订阅.md",
+    "from": "/ide/2024-05-01 文件夹-订阅",
+    "to": "/ide/2024-05-01-文件夹-订阅"
+  },
+  {
+    "oldFile": "docs/ide/2024-05-01 文件夹-重命名.md",
+    "newFile": "docs/ide/2024-05-01-文件夹-重命名.md",
+    "from": "/ide/2024-05-01 文件夹-重命名",
+    "to": "/ide/2024-05-01-文件夹-重命名"
+  },
+  {
+    "oldFile": "docs/ide/2024-05-01 逻辑说明.md",
+    "newFile": "docs/ide/2024-05-01-逻辑说明.md",
+    "from": "/ide/2024-05-01 逻辑说明",
+    "to": "/ide/2024-05-01-逻辑说明"
+  },
+  {
+    "oldFile": "docs/ide/2024-05-01 错误码.md",
+    "newFile": "docs/ide/2024-05-01-错误码.md",
+    "from": "/ide/2024-05-01 错误码",
+    "to": "/ide/2024-05-01-错误码"
+  },
+  {
+    "oldFile": "docs/ide/2024-06-14 10_全文检索&替换.md",
+    "newFile": "docs/ide/2024-06-14-10-全文检索-替换.md",
+    "from": "/ide/2024-06-14 10_全文检索&替换",
+    "to": "/ide/2024-06-14-10-全文检索-替换"
+  },
+  {
+    "oldFile": "docs/ide/2024-06-14 1_协同编辑.md",
+    "newFile": "docs/ide/2024-06-14-1-协同编辑.md",
+    "from": "/ide/ot",
+    "to": "/ide/2024-06-14-1-协同编辑"
+  },
+  {
+    "oldFile": "docs/ide/2024-06-14 2_代码运行.md",
+    "newFile": "docs/ide/2024-06-14-2-代码运行.md",
+    "from": "/ide/run",
+    "to": "/ide/2024-06-14-2-代码运行"
+  },
+  {
+    "oldFile": "docs/ide/2024-06-14 3_代码调试.md",
+    "newFile": "docs/ide/2024-06-14-3-代码调试.md",
+    "from": "/ide/debug",
+    "to": "/ide/2024-06-14-3-代码调试"
+  },
+  {
+    "oldFile": "docs/ide/2024-06-14 4_Shell 工具.md",
+    "newFile": "docs/ide/2024-06-14-4-Shell-工具.md",
+    "from": "/ide/shell",
+    "to": "/ide/2024-06-14-4-Shell-工具"
+  },
+  {
+    "oldFile": "docs/ide/2024-06-14 5_可视化输出.md",
+    "newFile": "docs/ide/2024-06-14-5-可视化输出.md",
+    "from": "/ide/output",
+    "to": "/ide/2024-06-14-5-可视化输出"
+  },
+  {
+    "oldFile": "docs/ide/2024-06-14 6_代码评论.md",
+    "newFile": "docs/ide/2024-06-14-6-代码评论.md",
+    "from": "/ide/comment",
+    "to": "/ide/2024-06-14-6-代码评论"
+  },
+  {
+    "oldFile": "docs/ide/2024-06-14 7_通用 LSP.md",
+    "newFile": "docs/ide/2024-06-14-7-通用-LSP.md",
+    "from": "/ide/lsp",
+    "to": "/ide/2024-06-14-7-通用-LSP"
+  },
+  {
+    "oldFile": "docs/ide/2024-06-14 8_nix 存储持久化.md",
+    "newFile": "docs/ide/2024-06-14-8-nix-存储持久化.md",
+    "from": "/ide/nix",
+    "to": "/ide/2024-06-14-8-nix-存储持久化"
+  },
+  {
+    "oldFile": "docs/ide/2024-06-14 9_Webview 网页工具.md",
+    "newFile": "docs/ide/2024-06-14-9-Webview-网页工具.md",
+    "from": "/ide/2024-06-14 9_Webview 网页工具",
+    "to": "/ide/2024-06-14-9-Webview-网页工具"
+  },
+  {
+    "oldFile": "docs/k8s/2023-04-11 使用KubeVPN 开发 ry-controller 服务-connect模式3.md",
+    "newFile": "docs/k8s/2023-04-11-使用KubeVPN-开发-ry-controller-服务-connect模式3.md",
+    "from": "/k8s/2023-04-11 使用KubeVPN 开发 ry-controller 服务-connect模式3",
+    "to": "/k8s/2023-04-11-使用KubeVPN-开发-ry-controller-服务-connect模式3"
+  },
+  {
+    "oldFile": "docs/k8s/2023-04-11 使用KubeVPN 开发 ry-server 服务-dev模式2.md",
+    "newFile": "docs/k8s/2023-04-11-使用KubeVPN-开发-ry-server-服务-dev模式2.md",
+    "from": "/k8s/2023-04-11 使用KubeVPN 开发 ry-server 服务-dev模式2",
+    "to": "/k8s/2023-04-11-使用KubeVPN-开发-ry-server-服务-dev模式2"
+  },
+  {
+    "oldFile": "docs/k8s/2023-04-11 使用KubeVPN 开发 ry-server 服务-proxy模式1.md",
+    "newFile": "docs/k8s/2023-04-11-使用KubeVPN-开发-ry-server-服务-proxy模式1.md",
+    "from": "/k8s/2023-04-11 使用KubeVPN 开发 ry-server 服务-proxy模式1",
+    "to": "/k8s/2023-04-11-使用KubeVPN-开发-ry-server-服务-proxy模式1"
+  },
+  {
+    "oldFile": "docs/k8s/2023-11-25 Linux namespace 简介.md",
+    "newFile": "docs/k8s/2023-11-25-Linux-namespace-简介.md",
+    "from": "/k8s/2023-11-25 Linux namespace 简介",
+    "to": "/k8s/2023-11-25-Linux-namespace-简介"
+  },
+  {
+    "oldFile": "docs/k8s/2024-04-08 使用 KubeVPN dev 模式在本地开发云原生工程.md",
+    "newFile": "docs/k8s/2024-04-08-使用-KubeVPN-dev-模式在本地开发云原生工程.md",
+    "from": "/k8s/2024-04-08 使用 KubeVPN dev 模式在本地开发云原生工程",
+    "to": "/k8s/2024-04-08-使用-KubeVPN-dev-模式在本地开发云原生工程"
+  },
+  {
+    "oldFile": "docs/k8s/2024-06-27 CloudIDE websocket 断开.md",
+    "newFile": "docs/k8s/2024-06-27-CloudIDE-websocket-断开.md",
+    "from": "/k8s/2024-06-27 CloudIDE websocket 断开",
+    "to": "/k8s/2024-06-27-CloudIDE-websocket-断开"
+  },
+  {
+    "oldFile": "docs/k8s/2024-08-29  Kubernetes Pod pending 很久问题分析及解决.md",
+    "newFile": "docs/k8s/2024-08-29-Kubernetes-Pod-pending-很久问题分析及解决.md",
+    "from": "/k8s/2024-08-29  Kubernetes Pod pending 很久问题分析及解决",
+    "to": "/k8s/2024-08-29-Kubernetes-Pod-pending-很久问题分析及解决"
+  },
+  {
+    "oldFile": "docs/k8s/2025-05-26 Containerd 进入 nsenter.md",
+    "newFile": "docs/k8s/2025-05-26-Containerd-进入-nsenter.md",
+    "from": "/k8s/2025-05-26 Containerd 进入 nsenter",
+    "to": "/k8s/2025-05-26-Containerd-进入-nsenter"
+  },
+  {
+    "oldFile": "docs/k8s/2025-05-26 JupyterLab 代理总结.md",
+    "newFile": "docs/k8s/2025-05-26-JupyterLab-代理总结.md",
+    "from": "/k8s/2025-05-26 JupyterLab 代理总结",
+    "to": "/k8s/2025-05-26-JupyterLab-代理总结"
+  },
+  {
+    "oldFile": "docs/k8s/2025-05-26 Nocalhost portforward 断线重连的实现.md",
+    "newFile": "docs/k8s/2025-05-26-Nocalhost-portforward-断线重连的实现.md",
+    "from": "/k8s/2025-05-26 Nocalhost portforward 断线重连的实现",
+    "to": "/k8s/2025-05-26-Nocalhost-portforward-断线重连的实现"
+  },
+  {
+    "oldFile": "docs/k8s/2025-05-26 VCluster 实践.md",
+    "newFile": "docs/k8s/2025-05-26-VCluster-实践.md",
+    "from": "/k8s/2025-05-26 VCluster 实践",
+    "to": "/k8s/2025-05-26-VCluster-实践"
+  },
+  {
+    "oldFile": "docs/k8s/2025-05-26 kt-connect 简介.md",
+    "newFile": "docs/k8s/2025-05-26-kt-connect-简介.md",
+    "from": "/k8s/2025-05-26 kt-connect 简介",
+    "to": "/k8s/2025-05-26-kt-connect-简介"
+  },
+  {
+    "oldFile": "docs/k8s/2025-05-26 各家云原生开发工具比较.md",
+    "newFile": "docs/k8s/2025-05-26-各家云原生开发工具比较.md",
+    "from": "/k8s/2025-05-26 各家云原生开发工具比较",
+    "to": "/k8s/2025-05-26-各家云原生开发工具比较"
+  },
+  {
+    "oldFile": "docs/llm/2023-09-11 LLM internlm-7b 模型文件下载部署.md",
+    "newFile": "docs/llm/2023-09-11-LLM-internlm-7b-模型文件下载部署.md",
+    "from": "/llm/2023-09-11 LLM internlm-7b 模型文件下载部署",
+    "to": "/llm/2023-09-11-LLM-internlm-7b-模型文件下载部署"
+  },
+  {
+    "oldFile": "docs/llm/2023-11-02 LLM replit 部署.md",
+    "newFile": "docs/llm/2023-11-02-LLM-replit-部署.md",
+    "from": "/llm/2023-11-02 LLM replit 部署",
+    "to": "/llm/2023-11-02-LLM-replit-部署"
+  },
+  {
+    "oldFile": "docs/llm/2023-11-02 LLM 概念.md",
+    "newFile": "docs/llm/2023-11-02-LLM-概念.md",
+    "from": "/llm/2023-11-02 LLM 概念",
+    "to": "/llm/2023-11-02-LLM-概念"
+  },
+  {
+    "oldFile": "docs/llm/2023-11-02 chatglm3-6b.md",
+    "newFile": "docs/llm/2023-11-02-chatglm3-6b.md",
+    "from": "/llm/2023-11-02 chatglm3-6b",
+    "to": "/llm/2023-11-02-chatglm3-6b"
+  },
+  {
+    "oldFile": "docs/llm/2024-03-29 coredump.md",
+    "newFile": "docs/llm/2024-03-29-coredump.md",
+    "from": "/llm/2024-03-29 coredump",
+    "to": "/llm/2024-03-29-coredump"
+  },
+  {
+    "oldFile": "docs/llm/2024-04-09 sample-eval 评测.md",
+    "newFile": "docs/llm/2024-04-09-sample-eval-评测.md",
+    "from": "/llm/2024-04-09 sample-eval 评测",
+    "to": "/llm/2024-04-09-sample-eval-评测"
+  },
+  {
+    "oldFile": "docs/llm/2024-07-05 code 模型.md",
+    "newFile": "docs/llm/2024-07-05-code-模型.md",
+    "from": "/llm/2024-07-05 code 模型",
+    "to": "/llm/2024-07-05-code-模型"
+  },
+  {
+    "oldFile": "docs/llm/2024-08-14 LLM 大模型 Olloma 项目解读.md",
+    "newFile": "docs/llm/2024-08-14-LLM-大模型-Olloma-项目解读.md",
+    "from": "/llm/2024-08-14 LLM 大模型 Olloma 项目解读",
+    "to": "/llm/2024-08-14-LLM-大模型-Olloma-项目解读"
+  },
+  {
+    "oldFile": "docs/llm/2024-08-16 LLM 大模型评测.md",
+    "newFile": "docs/llm/2024-08-16-LLM-大模型评测.md",
+    "from": "/llm/2024-08-16 LLM 大模型评测",
+    "to": "/llm/2024-08-16-LLM-大模型评测"
+  },
+  {
+    "oldFile": "docs/llm/2024-09-04 LLM 大模型 Function call.md",
+    "newFile": "docs/llm/2024-09-04-LLM-大模型-Function-call.md",
+    "from": "/llm/2024-09-04 LLM 大模型 Function call",
+    "to": "/llm/2024-09-04-LLM-大模型-Function-call"
+  },
+  {
+    "oldFile": "docs/llm/2024-09-09 gsk8k 评测.md",
+    "newFile": "docs/llm/2024-09-09-gsk8k-评测.md",
+    "from": "/llm/2024-09-09 gsk8k 评测",
+    "to": "/llm/2024-09-09-gsk8k-评测"
+  },
+  {
+    "oldFile": "docs/llm/2024-09-18 LLM stablediffusion 生成图片.md",
+    "newFile": "docs/llm/2024-09-18-LLM-stablediffusion-生成图片.md",
+    "from": "/llm/2024-09-18 LLM stablediffusion 生成图片",
+    "to": "/llm/2024-09-18-LLM-stablediffusion-生成图片"
+  },
+  {
+    "oldFile": "docs/llm/2024-09-23 ONNX 格式小模型.md",
+    "newFile": "docs/llm/2024-09-23-ONNX-格式小模型.md",
+    "from": "/llm/2024-09-23 ONNX 格式小模型",
+    "to": "/llm/2024-09-23-ONNX-格式小模型"
+  },
+  {
+    "oldFile": "docs/llm/2024-11-02 训练一个小参数模型.md",
+    "newFile": "docs/llm/2024-11-02-训练一个小参数模型.md",
+    "from": "/llm/2024-11-02 训练一个小参数模型",
+    "to": "/llm/2024-11-02-训练一个小参数模型"
+  },
+  {
+    "oldFile": "docs/llm/2025-02-18 华为昇腾 910b3 分布式训练报错.md",
+    "newFile": "docs/llm/2025-02-18-华为昇腾-910b3-分布式训练报错.md",
+    "from": "/llm/2025-02-18 华为昇腾 910b3 分布式训练报错",
+    "to": "/llm/2025-02-18-华为昇腾-910b3-分布式训练报错"
+  },
+  {
+    "oldFile": "docs/llm/2025-03-20 分布式精调遇到的问题.md",
+    "newFile": "docs/llm/2025-03-20-分布式精调遇到的问题.md",
+    "from": "/llm/2025-03-20 分布式精调遇到的问题",
+    "to": "/llm/2025-03-20-分布式精调遇到的问题"
+  },
+  {
+    "oldFile": "docs/llm/2025-04-08 使用 LlamaFactory 精调大模型-环境搭建.md",
+    "newFile": "docs/llm/2025-04-08-使用-LlamaFactory-精调大模型-环境搭建.md",
+    "from": "/llm/2025-04-08 使用 LlamaFactory 精调大模型-环境搭建",
+    "to": "/llm/2025-04-08-使用-LlamaFactory-精调大模型-环境搭建"
+  },
+  {
+    "oldFile": "docs/llm/2025-04-18 使用 LlamaFactory 精调大模型-Continue-pretrain训练.md",
+    "newFile": "docs/llm/2025-04-18-使用-LlamaFactory-精调大模型-Continue-pretrain训练.md",
+    "from": "/llm/2025-04-18 使用 LlamaFactory 精调大模型-Continue-pretrain训练",
+    "to": "/llm/2025-04-18-使用-LlamaFactory-精调大模型-Continue-pretrain训练"
+  },
+  {
+    "oldFile": "docs/llm/2025-04-18 使用 LlamaFactory 精调大模型-RL-PPO 强化学习.md",
+    "newFile": "docs/llm/2025-04-18-使用-LlamaFactory-精调大模型-RL-PPO-强化学习.md",
+    "from": "/llm/2025-04-18 使用 LlamaFactory 精调大模型-RL-PPO 强化学习",
+    "to": "/llm/2025-04-18-使用-LlamaFactory-精调大模型-RL-PPO-强化学习"
+  },
+  {
+    "oldFile": "docs/llm/2025-04-18 使用 LlamaFactory 精调大模型-SFT-Lora训练.md",
+    "newFile": "docs/llm/2025-04-18-使用-LlamaFactory-精调大模型-SFT-Lora训练.md",
+    "from": "/llm/2025-04-18 使用 LlamaFactory 精调大模型-SFT-Lora训练",
+    "to": "/llm/2025-04-18-使用-LlamaFactory-精调大模型-SFT-Lora训练"
+  },
+  {
+    "oldFile": "docs/llm/2025-04-18 使用 LlamaFactory 精调大模型-配置数据集.md",
+    "newFile": "docs/llm/2025-04-18-使用-LlamaFactory-精调大模型-配置数据集.md",
+    "from": "/llm/2025-04-18 使用 LlamaFactory 精调大模型-配置数据集",
+    "to": "/llm/2025-04-18-使用-LlamaFactory-精调大模型-配置数据集"
+  },
+  {
+    "oldFile": "docs/llm/2025-04-28 vLLM PD 分离部署.md",
+    "newFile": "docs/llm/2025-04-28-vLLM-PD-分离部署.md",
+    "from": "/llm/2025-04-28 vLLM PD 分离部署",
+    "to": "/llm/2025-04-28-vLLM-PD-分离部署"
+  },
+  {
+    "oldFile": "docs/llm/2025-05-08 MCP server 初步使用.md",
+    "newFile": "docs/llm/2025-05-08-MCP-server-初步使用.md",
+    "from": "/llm/2025-05-08 MCP server 初步使用",
+    "to": "/llm/2025-05-08-MCP-server-初步使用"
+  },
+  {
+    "oldFile": "docs/llm/2025-05-23 accelerate 使用心得.md",
+    "newFile": "docs/llm/2025-05-23-accelerate-使用心得.md",
+    "from": "/llm/2025-05-23 accelerate 使用心得",
+    "to": "/llm/2025-05-23-accelerate-使用心得"
+  },
+  {
+    "oldFile": "docs/llm/2025-05-23 maas学习.md",
+    "newFile": "docs/llm/2025-05-23-maas学习.md",
+    "from": "/llm/2025-05-23 maas学习",
+    "to": "/llm/2025-05-23-maas学习"
+  },
+  {
+    "oldFile": "docs/llm/2025-05-23 华为昇腾 910b3 使用 hccl-test 排查问题.md",
+    "newFile": "docs/llm/2025-05-23-华为昇腾-910b3-使用-hccl-test-排查问题.md",
+    "from": "/llm/2025-05-23 华为昇腾 910b3 使用 hccl-test 排查问题",
+    "to": "/llm/2025-05-23-华为昇腾-910b3-使用-hccl-test-排查问题"
+  },
+  {
+    "oldFile": "docs/llm/2025-05-26 使用 nsys 分析 LLM 性能问题.md",
+    "newFile": "docs/llm/2025-05-26-使用-nsys-分析-LLM-性能问题.md",
+    "from": "/llm/2025-05-26 使用 nsys 分析 LLM 性能问题",
+    "to": "/llm/2025-05-26-使用-nsys-分析-LLM-性能问题"
+  },
+  {
+    "oldFile": "docs/llm/2026-03-04 Harness 学习.md",
+    "newFile": "docs/llm/2026-03-04-Harness-学习.md",
+    "from": "/llm/2026-03-04 Harness 学习",
+    "to": "/llm/2026-03-04-Harness-学习"
+  },
+  {
+    "oldFile": "docs/llm/2026-03-05 DeepAgent 使用.md",
+    "newFile": "docs/llm/2026-03-05-DeepAgent-使用.md",
+    "from": "/llm/2026-03-05 DeepAgent 使用",
+    "to": "/llm/2026-03-05-DeepAgent-使用"
+  },
+  {
+    "oldFile": "docs/llm/2026-03-12 OpenClaw 实践.md",
+    "newFile": "docs/llm/2026-03-12-OpenClaw-实践.md",
+    "from": "/llm/2026-03-12 OpenClaw 实践",
+    "to": "/llm/2026-03-12-OpenClaw-实践"
+  },
+  {
+    "oldFile": "docs/llm/2026-03-18 OpenViking 学习.md",
+    "newFile": "docs/llm/2026-03-18-OpenViking-学习.md",
+    "from": "/llm/2026-03-18 OpenViking 学习",
+    "to": "/llm/2026-03-18-OpenViking-学习"
+  },
+  {
+    "oldFile": "docs/note/2021-10-09 《小妇人》.md",
+    "newFile": "docs/note/2021-10-09-小妇人.md",
+    "from": "/note/2021-10-09 《小妇人》",
+    "to": "/note/2021-10-09-小妇人"
+  },
+  {
+    "oldFile": "docs/note/2023-08-26 年度团建后感悟.md",
+    "newFile": "docs/note/2023-08-26-年度团建后感悟.md",
+    "from": "/note/2023-08-26 年度团建后感悟",
+    "to": "/note/2023-08-26-年度团建后感悟"
+  },
+  {
+    "oldFile": "docs/note/2024-08-25 《狼烟北平》有感.md",
+    "newFile": "docs/note/2024-08-25-狼烟北平-有感.md",
+    "from": "/note/2024-08-25 《狼烟北平》有感",
+    "to": "/note/2024-08-25-狼烟北平-有感"
+  },
+  {
+    "oldFile": "docs/note/2025-05-26 目标趋于抽象，目标趋于抽象.md",
+    "newFile": "docs/note/2025-05-26-目标趋于抽象-目标趋于抽象.md",
+    "from": "/note/2025-05-26 目标趋于抽象，目标趋于抽象",
+    "to": "/note/2025-05-26-目标趋于抽象-目标趋于抽象"
+  },
+  {
+    "oldFile": "docs/note/2025-06-13 《南海十三郎》.md",
+    "newFile": "docs/note/2025-06-13-南海十三郎.md",
+    "from": "/note/2025-06-13 《南海十三郎》",
+    "to": "/note/2025-06-13-南海十三郎"
+  },
+  {
+    "oldFile": "docs/note/2025-06-16 客体化.md",
+    "newFile": "docs/note/2025-06-16-客体化.md",
+    "from": "/note/2025-06-16 客体化",
+    "to": "/note/2025-06-16-客体化"
+  },
+  {
+    "oldFile": "docs/note/2025-06-16 法律是对人性中不好东西的约束.md",
+    "newFile": "docs/note/2025-06-16-法律是对人性中不好东西的约束.md",
+    "from": "/note/2025-06-16 法律是对人性中不好东西的约束",
+    "to": "/note/2025-06-16-法律是对人性中不好东西的约束"
+  },
+  {
+    "oldFile": "docs/note/2025-06-16 泡沫的起源.md",
+    "newFile": "docs/note/2025-06-16-泡沫的起源.md",
+    "from": "/note/2025-06-16 泡沫的起源",
+    "to": "/note/2025-06-16-泡沫的起源"
+  },
+  {
+    "oldFile": "docs/note/2025-10-09 《额尔古纳河的右岸》.md",
+    "newFile": "docs/note/2025-10-09-额尔古纳河的右岸.md",
+    "from": "/note/2025-10-09 《额尔古纳河的右岸》",
+    "to": "/note/2025-10-09-额尔古纳河的右岸"
+  },
+  {
+    "oldFile": "docs/note/2025-10-09 好字.md",
+    "newFile": "docs/note/2025-10-09-好字.md",
+    "from": "/note/2025-10-09 好字",
+    "to": "/note/2025-10-09-好字"
+  },
+  {
+    "oldFile": "docs/note/2025-12-10 要趁着这股劲儿.md",
+    "newFile": "docs/note/2025-12-10-要趁着这股劲儿.md",
+    "from": "/note/2025-12-10 要趁着这股劲儿",
+    "to": "/note/2025-12-10-要趁着这股劲儿"
+  },
+  {
+    "oldFile": "docs/note/2025-12-16 好文字.md",
+    "newFile": "docs/note/2025-12-16-好文字.md",
+    "from": "/note/2025-12-16 好文字",
+    "to": "/note/2025-12-16-好文字"
+  },
+  {
+    "oldFile": "docs/note/2026-01-04 元旦.md",
+    "newFile": "docs/note/2026-01-04-元旦.md",
+    "from": "/note/2026-01-04 元旦",
+    "to": "/note/2026-01-04-元旦"
+  }
+]

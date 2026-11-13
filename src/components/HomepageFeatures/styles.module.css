@@ -1,11 +1,20 @@
 .features {
   display: flex;
   align-items: center;
-  padding: 2rem 0;
+  padding: 1rem 0 3rem;
   width: 100%;
 }
 
 .featureSvg {
-  height: 200px;
-  width: 200px;
+  height: 120px;
+  width: 120px;
+}
+
+.featureTitle {
+  font-family: var(--font-display);
+  margin-top: 8px;
+}
+
+.featureDesc {
+  color: var(--ifm-color-emphasis-800); /* Darker for better contrast */
 }

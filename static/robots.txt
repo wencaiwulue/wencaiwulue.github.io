@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wencaiwulue.github.io/sitemap.xml

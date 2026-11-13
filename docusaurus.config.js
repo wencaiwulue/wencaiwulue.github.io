@@ -4,15 +4,21 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
+const { themes: prismThemes } = require('prism-react-renderer');
+const fs = require('fs');
+const path = require('path');
+
+const urlMigrationPath = path.join(__dirname, 'scripts', 'url-migration.json');
+const urlMigration = JSON.parse(fs.readFileSync(urlMigrationPath, 'utf-8'));
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '冯才文',
+  tagline: '记录大模型、云原生与开发工具实践，也收藏阅读与思考。',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://wencaiwulue.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -22,12 +28,13 @@ const config = {
   organizationName: 'wencaiwulue', // Usually your GitHub org/user name.
   projectName: 'wencaiwulue.github.io', // Usually your repo name.
 
-  onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
+  onDuplicateRoutes: 'throw',
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'throw',
 
   // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
+  // useful metadata like html lang. For example, if your site is Chinese,
+  // you may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'zh-Hans',
     locales: ['zh-Hans'],
@@ -47,14 +54,7 @@ const config = {
           path: 'docs',         // 文档源文件目录
           routeBasePath: '/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/wencaiwulue/wencaiwulue.github.io/tree/master',
-          blogSidebarCount: "ALL"
-        },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -62,16 +62,31 @@ const config = {
     ],
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: urlMigration.map(({ from, to }) => ({ from, to })),
+      },
+    ],
+  ],
+
   themeConfig:
-  /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/social-card.png',
+      metadata: [
+        {name: 'author', content: '冯才文'},
+        {name: 'keywords', content: '大模型,Kubernetes,Cloud IDE,云原生,技术博客'},
+      ],
       navbar: {
         title: '冯才文',
         logo: {
-          alt: 'My Site Logo',
+          alt: '冯才文的技术知识库',
           src: 'img/logo.svg',
+          width: 28,
+          height: 28,
         },
         items: [
           {
@@ -125,7 +140,11 @@ const config = {
         sidebar: {
           hideable: true,
         },
-      }
+      },
+      tableOfContents: {
+        minHeadingLevel: 2,
+        maxHeadingLevel: 4,
+      },
     }),
   themes: [
     [
@@ -139,9 +158,12 @@ const config = {
         // ```
         language: ["en", "zh"],
         // ```
+        indexBlog: false,
+        // Docs are at routeBasePath: '/', not '/docs'
+        docsRouteBasePath: ['/'],
       }),
     ],
   ],
 };
 
-export default config;
+module.exports = config;

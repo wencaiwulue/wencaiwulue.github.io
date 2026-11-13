@@ -7,7 +7,7 @@ tags: [ 'hermes', 'ai-agent', 'tool-calling', 'python' ]
 ## 简介
 
 [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) 是一个功能完整的 AI Agent
-框架，其核心文件 `run_agent.py` 超过 **12,600 行**代码。这篇文章将深入解析其架构设计、核心功能和实现细节。
+框架，其核心文件 `run_agent.py` 超过 **12,600 行** 代码。这篇文章将深入解析其架构设计、核心功能和实现细节。
 
 ## 文件概览
 
