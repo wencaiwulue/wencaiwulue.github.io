@@ -81,7 +81,6 @@ const config = {
         {name: 'keywords', content: '大模型,Kubernetes,Cloud IDE,云原生,技术博客'},
       ],
       navbar: {
-        title: '冯才文',
         logo: {
           alt: '冯才文的技术知识库',
           src: 'img/logo.svg',
